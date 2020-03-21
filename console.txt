@@ -1,0 +1,209 @@
+**********************
+PowerShell transcript start
+Start time: 20200321172337
+Username: HP8100-ELITE\hmura
+RunAs User: HP8100-ELITE\hmura
+Configuration Name: 
+Machine: HP8100-ELITE (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -WorkingDirectory ~
+Process ID: 6484
+PSVersion: 7.0.0
+PSEdition: Core
+GitCommitId: 7.0.0
+OS: Microsoft Windows 10.0.18363
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.10032.0, 6.0.0, 6.1.0, 6.2.0, 7.0.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is console.txt
+PS E:\Source\node_work\hello-vuepress> ls
+
+
+    Directory: E:\Source\node_work\hello-vuepress
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          2020/03/21    16:22                node_modules
+d----          2020/03/20    21:25                src
+-a---          2020/03/21    17:03             15 .gitignore
+-a---          2020/03/21    17:23              0 console.txt
+-a---          2020/03/20    19:29            246 package.json
+-a---          2020/03/20    21:26         421606 package-lock.json
+-a---          2020/03/20    20:35             10 start.bat
+-a---          2020/03/20    19:26         347704 yarn.lock
+-a---          2020/03/20    21:31             67 参考サイト.txt
+
+PS E:\Source\node_work\hello-vuepress> ls
+
+
+    Directory: E:\Source\node_work\hello-vuepress
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          2020/03/21    16:22                node_modules
+d----          2020/03/20    21:25                src
+-a---          2020/03/21    17:03             15 .gitignore
+-a---          2020/03/21    17:23              0 console.txt
+-a---          2020/03/20    19:29            246 package.json
+-a---          2020/03/20    21:26         421606 package-lock.json
+-a---          2020/03/20    20:35             10 start.bat
+-a---          2020/03/20    19:26         347704 yarn.lock
+-a---          2020/03/20    21:31             67 参考サイト.txt
+
+PS E:\Source\node_work\hello-vuepress> ls
+
+
+    Directory: E:\Source\node_work\hello-vuepress
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          2020/03/21    16:22                node_modules
+d----          2020/03/20    21:25                src
+-a---          2020/03/21    17:03             15 .gitignore
+-a---          2020/03/21    17:23              0 console.txt
+-a---          2020/03/20    19:29            246 package.json
+-a---          2020/03/20    21:26         421606 package-lock.json
+-a---          2020/03/20    20:35             10 start.bat
+-a---          2020/03/20    19:26         347704 yarn.lock
+-a---          2020/03/20    21:31             67 参考サイト.txt
+
+PS E:\Source\node_work\hello-vuepress> python -V
+Python 3.6.8
+PS E:\Source\node_work\hello-vuepress> pip list
+Package                       Version
+----------------------------- ----------
+amqp                          2.5.2
+asgiref                       3.2.3
+astroid                       2.3.3
+attrs                         19.3.0
+autopep8                      1.5
+azure-core                    1.1.1
+azure-cosmos                  4.0.0b6
+billiard                      3.6.3.0
+boto                          2.49.0
+boto3                         1.12.10
+botocore                      1.15.10
+celery                        4.3.0
+certifi                       2019.11.28
+cffi                          1.14.0
+chardet                       3.0.4
+Click                         7.0
+colorama                      0.4.3
+coreapi                       2.3.3
+coreschema                    0.0.4
+cryptography                  2.8
+cycler                        0.10.0
+Django                        1.11.28
+django-activity-stream        0.7.0
+django-celery-beat            1.5.0
+django-colorful               1.3
+django-cors-headers           2.5.2
+django-formtools              2.1
+django-js-asset               1.2.2
+django-mathfilters            0.4.0
+django-model-utils            3.1.2
+django-mptt                   0.9.1
+django-pure-pagination        0.3.0
+django-qsstats-magic          1.0.0
+django-solo                   1.1.3
+django-stronghold             0.3.0
+django-timezone-field         3.1
+django-widget-tweaks          1.4.5
+djangorestframework           3.7.7
+djangorestframework-recursive 0.1.2
+docutils                      0.15.2
+drf-yasg                      1.6.0
+falcon                        2.0.0
+falcon-auth                   1.1.0
+falcon-jwt-checker            0.1.3
+flanker                       0.9.0
+flex                          6.14.0
+furl                          2.0.0
+fusepy                        3.0.1
+future                        0.18.2
+gensim                        3.8.1
+gevent                        1.4.0
+graphviz                      0.10.1
+greenlet                      0.4.15
+gunicorn                      19.9.0
+idna                          2.8
+importlib-metadata            1.5.0
+inflection                    0.3.1
+isort                         4.3.21
+itypes                        1.1.0
+Jinja2                        2.11.1
+jmespath                      0.9.5
+joblib                        0.14.1
+jsonpointer                   2.0
+jsonschema                    3.2.0
+kiwisolver                    1.1.0
+kombu                         4.6.7
+lazy-object-proxy             1.4.3
+MarkupSafe                    1.1.1
+matplotlib                    3.1.3
+mayan-edms                    3.3.15
+mccabe                        0.6.1
+mock                          2.0.0
+node-semver                   0.6.1
+numpy                         1.18.1
+openapi-codec                 1.3.2
+orderedmultidict              1.0.1
+pandas                        1.0.1
+pathlib2                      2.3.5
+pbr                           5.4.4
+Pillow                        6.2.2
+pip                           20.0.2
+ply                           3.11
+pycodestyle                   2.5.0
+pycountry                     18.12.8
+pycparser                     2.20
+PyJWT                         1.7.1
+pylint                        2.4.4
+pyocr                         0.6
+pyparsing                     2.4.6
+PyPDF2                        1.26.0
+pyrsistent                    0.15.7
+python-crontab                2.4.0
+python-dateutil               2.8.0
+python-gnupg                  0.3.9
+python-magic                  0.4.15
+pythonnet                     2.4.0
+pytz                          2019.1
+PyYAML                        5.1.2
+regex                         2020.2.20
+requests                      2.21.0
+rfc3987                       1.3.8
+ruamel.yaml                   0.16.10
+ruamel.yaml.clib              0.2.0
+s3transfer                    0.3.3
+scikit-learn                  0.22.2
+scipy                         1.4.1
+setuptools                    40.6.2
+sh                            1.12.14
+six                           1.13.0
+sklearn                       0.0
+smart-open                    1.9.0
+solrpy                        0.9.9
+sqlparse                      0.3.0
+strict-rfc3339                0.7
+swagger-spec-validator        2.4.3
+tld                           0.11.11
+toml                          0.10.0
+typed-ast                     1.4.1
+uritemplate                   3.0.1
+urllib3                       1.24.3
+validate-email                1.3
+vine                          1.3.0
+virtualenv                    16.7.9
+virtualenv-clone              0.5.3
+WebOb                         1.8.6
+whitenoise                    4.1.4
+wrapt                         1.11.2
+zipp                          3.1.0
+PS E:\Source\node_work\hello-vuepress> stop-transcript
+**********************
+PowerShell transcript end
+End time: 20200321172354
+**********************
