@@ -78,3 +78,16 @@ To https://github.com/hiroshi-murano/vuepress3.git
 node_modules/
 ```
 
+## VuePressをNetlifyにアップする
+
+### あらかじめVuePressプロジェクトをgithubのリポジトリにアップしておく
+### Netlifyの操作
+
+1. New Site From Git ボタンを押す
+1. GitHubボタンを押す
+1. アップしておいたリポジトリを選択する
+1. build command に vuepress build src と書く(srcはdocsとなっているので自分のプロジェクト構造に合わせる)
+1. publish command に src/.vuepress/dist と書く(srcはdocsとなっているので自分のプロジェクト構造に合わせる)
+1. Deploy Site ボタンを押す
+1. 一分くらいかかり、成功すれば、インターネットの公開urlが自動的に割り当てられて、表示される。
+
