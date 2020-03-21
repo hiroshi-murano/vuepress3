@@ -4,8 +4,8 @@ module.exports = {
       lang: "ja"
     }
   },
-  title: "テストサイト",
-  description: "ここはテストサイトなのです",
+  title: "システム技術ノウハウ",
+  description: "システム技術ノウハウサイトです",
   head: [
     [
       'link',
@@ -20,11 +20,16 @@ module.exports = {
     //     ['/', 'ルート'],
     //     ['/about/', 'About VuePress']
     // ],
-    sidebar: "auto",
+    sidebar: [
+      ['/','root'],
+      ['/about/','About'],
+      ['/knowhow/','knowhow']
+    ],
+    sidebarDepth: 1,
     nav: [
       { text: "Home", link: "/" },
       { text: "About", link: "/about/" },
-      { text: "Blog", link: "https://www.nxworld.net/" },
+      { text: "KnowHow", link: "/knowhow/" },
       {
         text: "More",
         items: [
