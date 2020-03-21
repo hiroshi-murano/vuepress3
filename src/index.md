@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /logo.png
+heroImage: pexels-photo-236028.jpeg
 actionText: About NxWorld
 actionLink: /about/
 features:
